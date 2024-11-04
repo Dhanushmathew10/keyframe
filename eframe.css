@@ -1,0 +1,57 @@
+@keyframes fade{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+
+.world{
+    color: blue;
+    animation: fade 3s ease-in-out;
+}
+
+
+@keyframes slide{
+    0%{
+        margin-left: 0px;
+    }
+    50%{
+        margin-left: 50px;
+    }
+    100%{
+        margin-left: 100px;
+    }
+}
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+    animation: slide 2s infinite linear;
+}
+
+@keyframes rotate{
+    0%{
+        transform: rotate(0deg);
+        margin-left: 0px;
+    }
+    50%{
+        transform: rotate(180deg);
+        margin-left: 100px;
+    }
+    100%{
+        transform: rotate(360deg);
+        margin-left: 200px;
+    }
+}
+
+
+.next{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    animation: rotate  3s linear infinite alternate;
+
+}

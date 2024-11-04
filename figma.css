@@ -1,0 +1,66 @@
+.left-wrap{
+    background-color: #165147;
+    height: 600hv;
+}
+.main-wrap{
+    height: 100hv;
+}
+.img-wrap{
+    width: 92px;
+height: 60px;
+top: 42px;
+padding-left: 20px;
+padding-top: 10px;
+
+}
+.login-wrap{
+    width: 97px;
+height: 47px;
+top: 152px;
+left: 46px;
+gap: 20px;
+opacity: 0px;
+padding-left: 20px;
+font-family: Lato;
+font-size: 32px;
+font-weight: 600;
+line-height: 47px;
+text-align: left;
+padding-left: 20px;
+padding-top: 10px;
+color: #FFFFFF;
+
+}
+.words-wrap{
+    width: 327px;
+height: 40px;
+top: 210px;
+left: 46px;
+gap: 0px;
+opacity: 0px;
+font-family: Lato;
+font-size: 17px;
+font-weight: 500;
+line-height: 20.4px;
+letter-spacing: 0.04em;
+text-align: left;
+padding-left: 20px;
+padding-top: 10px;
+
+
+}
+.mail{
+    width: 186px;
+height: 17px;
+top: 64px;
+left: 441px;
+gap: 0px;
+opacity: 0px;
+font-family: Lato;
+font-size: 14px;
+font-weight: 700;
+line-height: 16.8px;
+letter-spacing: 0.04em;
+text-align: left;
+color: #9A9999;
+}

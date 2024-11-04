@@ -1,0 +1,17 @@
+.menubar{
+    width: 100px;
+    background-color: aquamarine;
+    overflow: auto;
+    border: 2px solid black;
+}
+.menubar{
+    text-align: center;
+    padding: 10px;
+    font-size: 40px;
+    color: black;
+    width: 60px;
+
+}
+.menubar a:hover{
+    background-color: black;
+}

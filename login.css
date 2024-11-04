@@ -1,0 +1,14 @@
+.wrap{
+    display: flex;
+    justify-content: space-around;
+    background-color: blue;
+    color: white;
+    padding: 10px;
+}
+@media(max-width:768px){
+    .wrap{
+        flex-direction: column;
+        width: 100px;
+        height: 100vh;
+    }
+}

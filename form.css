@@ -1,0 +1,9 @@
+.wrap{
+    border: 1px solid black;
+    padding: 20px;
+    width: fit-content;
+}
+.login{
+    margin-left: 80px;
+}
+
